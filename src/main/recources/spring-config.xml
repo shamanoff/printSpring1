@@ -6,5 +6,8 @@
     <bean id = "handler" class="DocHandler">
         <constructor-arg name="printer" ref="toConsolePrinter"/>
     </bean>
+
     <bean id = "toConsolePrinter" class="ToConsolePrinter"/>
+
+    <bean id = "toFilePrinter" class="ToFilePrinter"/>
 </beans>

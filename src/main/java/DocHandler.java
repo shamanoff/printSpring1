@@ -17,5 +17,11 @@ public class DocHandler {
     public DocHandler() {
     }
 
+    public IPrinter getPrinter() {
+        return printer;
+    }
 
+    public void setPrinter(IPrinter printer) {
+        this.printer = printer;
+    }
 }
